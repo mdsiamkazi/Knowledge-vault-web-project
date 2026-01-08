@@ -46,9 +46,13 @@
 
 
 nav{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-between;
-    padding: 24px 120px ;
+    padding-top: 24px;
+    padding-bottom: 24px;
     align-items: center;
 
 }
@@ -84,12 +88,18 @@ nav a{
     background: url("../assets/hero-bg.png");
     width: 100%;
     height: 674px;
-    padding: 115px 120px 180px 120px;
+    padding-bottom: 180px;
+    padding-top: 120px ;
     background-repeat: no-repeat ;
     background-position: center;
     background-size: cover;
     text-align: center;
     
+}
+.banner-content {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .banner-content-top{
     display: inline;
@@ -144,4 +154,185 @@ nav a{
 .water-on-hover:hover{
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid white;
+}
+
+              /* Main css */
+
+
+/* feature-section css */
+.feature-section{
+    width: 85%;
+    margin: 76px auto auto auto;
+    text-align: center;
+}
+
+/* .feature top side  */
+.FS-top{
+    margin-bottom: 44px;
+}
+.FS-top h1{
+ font-size: 48px;
+ color: black;
+ margin-bottom: 16px;
+}
+
+.FS-top p{
+    color: #627382;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+/* feature bottom section css  */
+
+
+.FS-bottom-con{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    
+}
+
+.FS-card{
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    box-shadow: 0 0 8px 0 #07030318; 
+    height: 300px;
+}
+.FS-card-img-div{
+  height: 60px;
+width: 60px;
+  background-color: #F95555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin:70px auto 16px auto;
+ 
+}
+.FS-card img{
+    width: 32px;
+    height: 32px;
+    
+
+    
+}
+.FS-card p{
+    color: #627382;
+    line-height: 20px;
+    font-size: 16px;
+    z-index: -2;
+}
+    
+.FS-card h3{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+
+/* brain section css */
+
+#brain{
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -20px;
+ 
+    
+    position: relative;
+    z-index: 4;
+}
+.brain-main{
+    width: 85%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.brain-content-section{
+    margin-top:102px ;
+    margin-bottom: 102px;
+    margin-left:60px ;
+    text-align: left;
+}
+.brain-content-section h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.brain-content-section h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+
+.brain-content-section ul{
+    list-style: none;
+}
+.brain-p{
+    color: #627382;
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 40px;
+   width: 60%;
+}
+
+.brain-feature {
+    display: flex;
+    justify-content: start;
+    gap: 6px;
+    align-items: center;
+    margin-bottom: 16px;
+    list-style: none;
+}
+.brain-feature p{
+    font-weight: 500;
+    
+     font-size: 16px;
+  
+}
+
+/* early section  */
+
+.early-btn-section{
+ text-align: center;
+ width: 85%;
+ margin: 0 auto 120px auto;
+ border-radius: 12px;
+ padding: 80px 40px;
+ background-color: #F7F6F2;
+}
+.early-btn-section h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.ebs-p p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  
+}
+.ebs-p {
+    margin-bottom: 24px;
+}
+.early-btn-section button{
+    margin-left: auto;
+    margin-right: auto;
+}
+.ebs-footer{
+   margin-left: auto;
+   margin-right: auto;
+    
+}
+.ebs-footer{
+    margin-top: 16px;
+}
+.ebs-footer p{
+    color: #627382;
+    font-size: 16px;
 }
