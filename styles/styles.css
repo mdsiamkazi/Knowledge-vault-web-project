@@ -1,21 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }
 
 /* Shared css  */
 
 
-#inter-font{
-     font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  
+#inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
 }
-.btn{
+
+.btn {
     padding: 12.5px 16px;
     font-size: 16px;
-    font-weight: 600; /*semi bold */
+    font-weight: 600;
+    /*semi bold */
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0);
     color: white;
@@ -23,29 +25,31 @@
 
 }
 
-.icon-btn{
+.icon-btn {
     display: flex;
     align-items: center;
-    gap:12px;
+    gap: 12px;
 
 }
-.water-btn{
+
+.water-btn {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid white;
 
 }
 
 
-.water-btn:hover{
+.water-btn:hover {
     background-color: #30B868;
     border: 1px solid rgba(0, 0, 0, 0);
-    
+
 }
-               /* Header css  */
+
+/* Header css  */
 /* nav css  */
 
 
-nav{
+nav {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
@@ -57,51 +61,52 @@ nav{
 
 }
 
-nav ul{
-   display: flex;
-   justify-content: space-between;
-   gap: 32px;
-   list-style: none;
-   
-}
-nav ul li{
-    
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    list-style: none;
+
 }
 
-nav a{
+nav ul li {}
+
+nav a {
     text-decoration: none;
     color: black;
 }
 
 
 
-.btn:hover{
+.btn:hover {
     background-color: #2e9d5c;
-   
+
 
 }
 
 
- /* banner css  */
+/* banner css  */
 
- #banner{
+#banner {
     background: url("../assets/hero-bg.png");
     width: 100%;
     height: 674px;
     padding-bottom: 180px;
-    padding-top: 120px ;
-    background-repeat: no-repeat ;
+    padding-top: 120px;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     text-align: center;
-    
+
 }
+
 .banner-content {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
-.banner-content-top{
+
+.banner-content-top {
     display: inline;
     margin-left: auto;
     margin-right: auto;
@@ -113,37 +118,41 @@ nav a{
     justify-content: space-between;
     align-items: center;
     gap: 6px;
-    border-radius:1000px ;
+    border-radius: 1000px;
 
 }
-.banner-content-top p{
+
+.banner-content-top p {
     color: #30B868;
     font-size: 16px;
 
 }
-.banner-content-top img{
+
+.banner-content-top img {
     width: 16px;
     height: 16px;
 }
 
-.banner-content h1{
+.banner-content h1 {
     color: white;
     font-weight: bold;
     font-size: 76px;
     margin-top: 16px;
     opacity: 0.9;
 }
-.colour-h1{
+
+.colour-h1 {
     color: #30B868;
 }
-.banner-p{
+
+.banner-p {
     font-size: 18px;
     line-height: 24px;
     color: white;
     margin-top: 16px;
 }
 
-.banner-btn{
+.banner-btn {
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -151,32 +160,33 @@ nav a{
 }
 
 
-.water-on-hover:hover{
+.water-on-hover:hover {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid white;
 }
 
-              /* Main css */
+/* Main css */
 
 
 /* feature-section css */
-.feature-section{
+.feature-section {
     width: 85%;
     margin: 76px auto auto auto;
     text-align: center;
 }
 
 /* .feature top side  */
-.FS-top{
+.FS-top {
     margin-bottom: 44px;
 }
-.FS-top h1{
- font-size: 48px;
- color: black;
- margin-bottom: 16px;
+
+.FS-top h1 {
+    font-size: 48px;
+    color: black;
+    margin-bottom: 16px;
 }
 
-.FS-top p{
+.FS-top p {
     color: #627382;
     line-height: 20px;
     font-size: 16px;
@@ -185,46 +195,49 @@ nav a{
 /* feature bottom section css  */
 
 
-.FS-bottom-con{
+.FS-bottom-con {
     display: flex;
     justify-content: space-between;
     gap: 24px;
-    
+
 }
 
-.FS-card{
+.FS-card {
     padding-left: 24px;
     padding-right: 24px;
     text-align: center;
-    box-shadow: 0 0 8px 0 #07030318; 
+    box-shadow: 0 0 8px 0 #07030318;
     height: 300px;
 }
-.FS-card-img-div{
-  height: 60px;
-width: 60px;
-  background-color: #F95555;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  margin:70px auto 16px auto;
- 
+
+.FS-card-img-div {
+    height: 60px;
+    width: 60px;
+    background-color: #F95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 70px auto 16px auto;
+
 }
-.FS-card img{
+
+.FS-card img {
     width: 32px;
     height: 32px;
-    
 
-    
+
+
 }
-.FS-card p{
+
+.FS-card p {
     color: #627382;
     line-height: 20px;
     font-size: 16px;
     z-index: -2;
 }
-    
-.FS-card h3{
+
+.FS-card h3 {
     font-weight: 600;
     font-size: 24px;
     margin-bottom: 16px;
@@ -233,53 +246,58 @@ width: 60px;
 
 /* brain section css */
 
-#brain{
+#brain {
     width: 100%;
-   padding: 120px 0 120px 0;
+    padding: 120px 0 120px 0;
     background-color: rgb(255, 255, 255);
     margin-top: -20px;
- 
-    
+
+
     position: relative;
     z-index: 4;
 }
-.brain-main{
+
+.brain-main {
     width: 85%;
     margin: 0 auto 0 auto;
     display: flex;
     justify-content: space-between;
     background-color: white;
-    gap: 60px;
+    gap: 100px;
 }
-.brain-content-section{
-    padding-top:102px ;
+
+.brain-content-section {
+    padding-top: 102px;
     padding-bottom: 102px;
-    x;
+
     
     text-align: left;
 }
-.brain-content-section h3{
+
+.brain-content-section h3 {
     font-size: 16px;
     font-weight: 500;
     color: #30B868;
     margin-bottom: 16px;
 }
-.brain-content-section h1{
+
+.brain-content-section h1 {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 16px;
 }
 
 
-.brain-content-section ul{
+.brain-content-section ul {
     list-style: none;
 }
-.brain-p{
+
+.brain-p {
     color: #627382;
     line-height: 20px;
     font-size: 16px;
     margin-bottom: 40px;
-   width: 60%;
+    width: 60%;
 }
 
 .brain-feature {
@@ -290,103 +308,117 @@ width: 60px;
     margin-bottom: 16px;
     list-style: none;
 }
-.brain-feature p{
+
+.brain-feature p {
     font-weight: 500;
-    
-     font-size: 16px;
-  
+
+    font-size: 16px;
+
 }
 
 /* early section  */
 
-.early-btn-section{
- text-align: center;
- width: 85%;
- margin: 0 auto 120px auto;
- border-radius: 12px;
- padding: 80px 40px;
- background-color: #F7F6F2;
+.early-btn-section {
+    text-align: center;
+    width: 85%;
+    margin: 0 auto 120px auto;
+    border-radius: 12px;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
 }
-.early-btn-section h1{
+
+.early-btn-section h1 {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 16px;
 }
-.ebs-p p{
-  font-size: 16px;
-  line-height: 24px;
-  color: #627382;
-  
+
+.ebs-p p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+
 }
+
 .ebs-p {
     margin-bottom: 24px;
 }
-.early-btn-section button{
+
+.early-btn-section button {
     margin-left: auto;
     margin-right: auto;
 }
-.ebs-footer{
-   margin-left: auto;
-   margin-right: auto;
-    
+
+.ebs-footer {
+    margin-left: auto;
+    margin-right: auto;
+
 }
-.ebs-footer{
+
+.ebs-footer {
     margin-top: 16px;
 }
-.ebs-footer p{
+
+.ebs-footer p {
     color: #627382;
     font-size: 16px;
 }
-.shadaw-btn{
-    box-shadow: 0 10px 20px 0px rgb(0,0,0,0.15);
+
+.shadaw-btn {
+    box-shadow: 0 10px 20px 0px rgb(0, 0, 0, 0.15);
 }
 
 
-         /* footer css */
+/* footer css */
 
-footer{
-    background-color:#001931 ;
+footer {
+    background-color: #001931;
     width: 100%;
     padding: 120px 0 30px 0;
 }
-.footer-top{
+
+.footer-top {
     display: flex;
     width: 85%;
     margin: 0px auto 80px auto;
     justify-content: space-between;
 }
 
-.ft-left{
+.ft-left {
     width: 140px;
     height: 60px;
 }
-.ft-right h6{
+
+.ft-right h6 {
     font-size: 20px;
     font-weight: 500;
     color: white;
     line-height: 28px;
     margin-bottom: 16px;
 }
-.social-icon{
+
+.social-icon {
     display: flex;
     justify-content: space-between;
     gap: 16px;
-max-width: 92px;
- }
-.social-icon img{
+    max-width: 92px;
+}
+
+.social-icon img {
     width: 20px;
     height: 20px;
 }
 
-.footer-bottom{
+.footer-bottom {
     text-align: center;
-    
+
     line-height: 24px;
     width: 85%;
     margin: 0 auto 0 auto;
     color: white;
 }
-.footer-bottom p{
-  margin-top: 30px;
-  margin-bottom: 0px;
+
+.footer-bottom p {
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
