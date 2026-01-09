@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
 
 /* Shared css  */
@@ -235,8 +235,7 @@ width: 60px;
 
 #brain{
     width: 100%;
-    padding-top: 120px;
-    padding-bottom: 120px;
+   padding: 120px 0 120px 0;
     background-color: rgb(255, 255, 255);
     margin-top: -20px;
  
@@ -250,11 +249,13 @@ width: 60px;
     display: flex;
     justify-content: space-between;
     background-color: white;
+    gap: 60px;
 }
 .brain-content-section{
-    margin-top:102px ;
-    margin-bottom: 102px;
-    margin-left:60px ;
+    padding-top:102px ;
+    padding-bottom: 102px;
+    x;
+    
     text-align: left;
 }
 .brain-content-section h3{
@@ -335,4 +336,57 @@ width: 60px;
 .ebs-footer p{
     color: #627382;
     font-size: 16px;
+}
+.shadaw-btn{
+    box-shadow: 0 10px 20px 0px rgb(0,0,0,0.15);
+}
+
+
+         /* footer css */
+
+footer{
+    background-color:#001931 ;
+    width: 100%;
+    padding: 120px 0 30px 0;
+}
+.footer-top{
+    display: flex;
+    width: 85%;
+    margin: 0px auto 80px auto;
+    justify-content: space-between;
+}
+
+.ft-left{
+    width: 140px;
+    height: 60px;
+}
+.ft-right h6{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+max-width: 92px;
+ }
+.social-icon img{
+    width: 20px;
+    height: 20px;
+}
+
+.footer-bottom{
+    text-align: center;
+    
+    line-height: 24px;
+    width: 85%;
+    margin: 0 auto 0 auto;
+    color: white;
+}
+.footer-bottom p{
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
