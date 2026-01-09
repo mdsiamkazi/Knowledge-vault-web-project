@@ -80,6 +80,7 @@ nav a {
 
 .btn:hover {
     background-color: #2e9d5c;
+    cursor: pointer;
 
 
 }
