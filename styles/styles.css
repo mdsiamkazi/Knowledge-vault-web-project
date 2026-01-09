@@ -388,6 +388,9 @@ footer {
     width: 140px;
     height: 60px;
 }
+.ft-right{
+    width: 220px;
+}
 
 .ft-right h6 {
     font-size: 20px;
@@ -416,6 +419,7 @@ footer {
     width: 85%;
     margin: 0 auto 0 auto;
     color: white;
+    border-top: 1px solid #e5e7eb1f;
 }
 
 .footer-bottom p {
